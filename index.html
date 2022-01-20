@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Real Love | H_Sangg 😙</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="wapper">
+      <div class="wappericon">
+        <div class="icon">
+          <img src="./src/heart-front-gradient.png" alt="" />
+        </div>
+
+        <div class="icon">
+          <img src="./src/heart-front-gradient.png" alt="" />
+        </div>
+
+        <div class="icon">
+          <img src="./src/heart-front-gradient.png" alt="" />
+        </div>
+      </div>
+      <h1 class="text-changer">
+        Đường link này sẽ dẫn đến trang người vào facebook bạn nhiều nhất trong
+        2021<a
+          class="text-click"
+          onclick="window.open('https://www.youtube.com/watch?v=EGFVw3qmuAg', 'asdas', 'toolbars=0,width=400,height=800,left=0,top=0,scrollbars=1,resizable=1');"
+        >
+          www.facebook.com/profile=?12&_name=?s
+        </a>
+        hãy trân trọng người ấy nhéeee.
+      </h1>
+    </div>
+
+    <script>
+      const a = document.querySelector(".text-click");
+      const h1 = document.querySelector(".text-changer");
+
+      a.addEventListener("click", (e) => {
+        const paragrap =
+          "tôi biết bồ cũng cô đơn trong cả năm qua rồi, thôi dẹp hết lại ở đây nha, sang năm mới chúc bồ và gia đình thật nhiều sức khỏe, không bị nợ môn nào và sớm tìm được người iu mình thật lòng nhé. From hsang with luv 👉👈";
+        setTimeout(() => {
+          h1.innerHTML = paragrap;
+        }, 1500);
+      });
+    </script>
+  </body>
+</html>
